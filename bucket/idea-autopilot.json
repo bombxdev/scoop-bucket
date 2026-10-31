@@ -1,0 +1,27 @@
+{
+    "version": "0.3.0",
+    "description": "Tray app that spends your spare AI-agent quota researching and prototyping your ideas",
+    "homepage": "https://github.com/bombxdev/idea-autopilot",
+    "license": "GPL-3.0-or-later",
+    "url": "https://github.com/bombxdev/idea-autopilot/releases/download/v0.3.0/IdeaAutopilot-0.3.0-portable.zip",
+    "hash": "971cae62c90c3c33be28b5283b3eae3308664224f6ba8dab0dd30178373a2fd5",
+    "extract_dir": "IdeaAutopilot",
+    "bin": [
+        "bin/ia.exe"
+    ],
+    "shortcuts": [
+        [
+            "bin/idea-autopilot.exe",
+            "Idea Autopilot"
+        ]
+    ],
+    "persist": "data",
+    "notes": "Needs git and one logged-in AI agent (Claude Code, Codex CLI, Gemini CLI, OpenCode). Your ideas and settings live in the app's data folder and are kept on update.",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/bombxdev/idea-autopilot/releases/download/v$version/IdeaAutopilot-$version-portable.zip",
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
