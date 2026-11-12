@@ -1,10 +1,10 @@
 {
-    "version": "0.5.1",
+    "version": "0.6.0",
     "description": "Tray app that spends your spare AI-agent quota researching and prototyping your ideas",
     "homepage": "https://github.com/bombxdev/idea-autopilot",
     "license": "GPL-3.0-or-later",
-    "url": "https://github.com/bombxdev/idea-autopilot/releases/download/v0.5.1/IdeaAutopilot-0.5.1-portable.zip",
-    "hash": "03699593270c69f631c4dd4e8f6998131d70f9f4b28495d664c867ec0d2379d1",
+    "url": "https://github.com/bombxdev/idea-autopilot/releases/download/v0.6.0/IdeaAutopilot-0.6.0-portable.zip",
+    "hash": "26b901e446c60d0e7e234dfc36b1a5936549822999f52beb7cd2a064603ff687",
     "extract_dir": "IdeaAutopilot",
     "bin": [
         "bin/ia.exe"
